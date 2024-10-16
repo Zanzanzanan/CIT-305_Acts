@@ -1,0 +1,24 @@
+{
+  "Catalog": {
+    "Products": [
+      {
+        "ProductID": "101",
+        "Name": "Smartphone",
+        "Category": "Electronics",
+        "Price": 299.99,
+        "Stock": 25,
+        "Description": "A high-end smartphone with advanced features",
+        "ImageURL": "https://example.com/smartphone.jpg"
+      },
+      {
+        "ProductID": "102",
+        "Name": "Laptop",
+        "Category": "Electronics",
+        "Price": 799.99,
+        "Stock": 15,
+        "Description": "A powerful laptop for professionals",
+        "ImageURL": "https://example.com/laptop.jpg"
+      }
+    ]
+  }
+}
