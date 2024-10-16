@@ -7,7 +7,7 @@ const port = 3000;
 // Route to fetch JSON data from Render
 app.get('/api/json', async (req, res) => {
     try {
-        const response = await axios.get('https://json-xml-hosting2.onrender.com/jsonData.json');
+        const response = await axios.get('https://json-xml-hosting2.onrender.com/product_catalog.json');
         res.json(response.data);
     } catch (error) {
         res.status(500).send('Error fetching JSON data');
